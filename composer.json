@@ -1,0 +1,24 @@
+{
+    "name": "netsilik/base-test-case",
+    "description": "Base Test Case for PHPUnit, proving various extended options for unit testing.",
+    "keywords": ["phpunit", "unit testing", "testing", "development"],
+    "type": "library",
+    "license": "MIT",
+	"homepage": "https://gitlab.com/Netsilik/BaseTestCase",
+    "authors": [
+        {
+            "name": "Jacco-V",
+            "role": "Developer",
+            "homepage": "http://netsilik.nl"
+        }
+    ],
+	"require": {
+        "php": "^7.3",
+        "phpunit/phpunit": "^8.3"
+    },
+    "autoload": {
+       "psr-4": {
+            "Netsilik\\Testing\\": "src/"
+        }
+    }
+}
