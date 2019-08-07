@@ -19,9 +19,7 @@ Latest version available at: https://gitlab.com/Netsilik/BaseTestCase
 Usage
 -----
 
-```php
-
-```
+See: [/example](./example) directory
 
 ---
 
