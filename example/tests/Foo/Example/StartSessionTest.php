@@ -7,8 +7,8 @@ namespace Tests\Foo\Example;
  */
 
 use App\Foo\Example;
-use Netsilik\Testing\BaseTestCase;
 use Netsilik\Testing\Helpers\FunctionOverwrites;
+use Tests\BaseTestCase;
 
 /**
  * Tests for class Example
