@@ -8,7 +8,7 @@ namespace Tests\Foo\Example;
 
 use App\Foo\Example;
 use InvalidArgumentException;
-use Netsilik\Testing\BaseTestCase;
+use Tests\BaseTestCase;
 
 /**
  * Tests for class Example
