@@ -6,4 +6,5 @@
 
 # PhpUnit Cache and Reporting
 /report/
+/example/report
 /cache/
