@@ -16,6 +16,9 @@
 		"php": "^7.3",
 		"phpunit/phpunit": "^8.3"
 	},
+	"require-dev": {
+		"netsilik/d": "^1.0"
+	},
 	"autoload": {
 		"psr-4": {
 			"Netsilik\\Testing\\": "src/"
