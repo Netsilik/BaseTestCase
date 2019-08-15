@@ -1,14 +1,14 @@
 <?php
-namespace Tests\Foo\Example;
+namespace Tests\Example\Foo\Example;
 
 /**
  * @copyright (c) 2010-2019 Netsilik (http://netsilik.nl)
  * @license       MIT
  */
 
-use App\Foo\Example;
+use Example\App\Foo\Example;
+use Example\Tests\BaseTestCase;
 use Netsilik\Testing\Helpers\FunctionOverwrites;
-use Tests\BaseTestCase;
 
 /**
  * Tests for class Example

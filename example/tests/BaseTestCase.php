@@ -1,5 +1,5 @@
 <?php
-namespace Tests;
+namespace Example\Tests;
 
 /**
  * @copyright (c) 2010-2019 Netsilik (http://netsilik.nl)

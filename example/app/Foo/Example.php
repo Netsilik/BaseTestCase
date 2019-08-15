@@ -1,5 +1,5 @@
 <?php
-namespace App\Foo;
+namespace Example\App\Foo;
 
 use InvalidArgumentException;
 

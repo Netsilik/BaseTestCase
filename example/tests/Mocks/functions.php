@@ -5,7 +5,7 @@
  * @license       MIT
  */
 
-namespace App\Foo
+namespace Example\App\Foo
 {
 	use Netsilik\Testing\Helpers\FunctionOverwrites;
 	
