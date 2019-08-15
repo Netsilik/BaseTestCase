@@ -1,14 +1,14 @@
 <?php
-namespace Tests\Foo\Example;
+namespace Tests\Example\Foo\Example;
 
 /**
  * @copyright (c) 2010-2019 Netsilik (http://netsilik.nl)
  * @license       MIT
  */
 
-use App\Foo\Example;
+use Example\App\Foo\Example;
+use Example\Tests\BaseTestCase;
 use InvalidArgumentException;
-use Tests\BaseTestCase;
 
 /**
  * Tests for class Example
@@ -26,7 +26,7 @@ class UpdateFooTest extends BaseTestCase
 	{
 		$example = new Example(8);
 		
-		self::callInaccessibleMethod($example, 'updateFoo', 'abc');
+		self::callInaccessibleMethod($example, '_updateFoo', 'abc');
 		$result = self::getInaccessibleProperty($example, '_foo');
 		
 		self::assertEquals('abc', $result);
@@ -39,7 +39,7 @@ class UpdateFooTest extends BaseTestCase
 		self::expectException(InvalidArgumentException::class);
 		self::expectExceptionMessage('Max length for foo exceeded');
 		
-		self::callInaccessibleMethod($example, 'updateFoo', 'abcabc');
+		self::callInaccessibleMethod($example, '_updateFoo', 'abcabc');
 	}
 
 	public function tearDown() : void

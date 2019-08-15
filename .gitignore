@@ -4,5 +4,7 @@
 # Composer packages
 /vendor/
 
-# PhpUnit Reporting
+# PhpUnit Cache and Reporting
 /report/
+/example/report
+/cache/
