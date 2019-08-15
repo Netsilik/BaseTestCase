@@ -58,6 +58,8 @@ class Example
 			trigger_error('Session initialization failed', E_USER_WARNING);
 			
 			$this->_sessionStarted = false;
+			
+			return;
 		}
 		
 		$this->_sessionStarted = true;
