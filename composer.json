@@ -18,7 +18,10 @@
     },
     "autoload": {
        "psr-4": {
-            "Netsilik\\Testing\\": "src/"
+            "Netsilik\\Testing\\": "src/",
+            "Tests\\": "tests",
+            "Example\\App\\": "example/app",
+            "Example\\Tests\\": "example/tests"
         }
     }
 }
